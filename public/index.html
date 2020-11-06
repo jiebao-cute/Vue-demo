@@ -11,7 +11,16 @@
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <div id="app">
+      {{n}}
+    </div>
+    <div id="destroyed">
+      {{m}}
+    </div>
+    <div id="props">
+      {{message}}
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.min.js"></script>
+ 
   </body>
 </html>
